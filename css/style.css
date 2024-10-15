@@ -1,0 +1,265 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Beiruti", sans-serif;
+	direction: rtl;
+	text-align: right;
+
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none!important;
+}
+li{
+	list-style: none!important;
+}
+
+p{
+	font-size: 16px;
+}
+.for-mobile{
+	display: none;
+}
+.dis-flex{
+	display: flex;
+	align-items: center;
+}
+.section-padding{
+	width: 100%;
+	display: flex;
+	padding: 100px 0;
+}
+.main{
+	width: 90%;
+	margin: 0 auto;
+}
+.wrap{
+	width: 60%;
+	margin: 0 auto;
+}
+.hero{
+	width: 100%;
+	color: #fff;
+	padding: 30px 0;
+	background: #143057;
+}
+.logo{
+	text-align: center;
+}
+.logo a img{
+	width: 400px;
+}
+
+.dis-center{
+	display: flex;
+	justify-content: center;
+}
+.hero-content h1{
+	text-align: center;
+	font-size: 60px;
+	margin-bottom: 20px;
+}
+.hero-content a{
+	font-size: 20px;
+	border: 3px #ffff solid;
+	border-radius: 40px;
+	padding: 10px 36px;
+	color: #fff;
+	display: inline-block;
+	font-weight: 600;
+	text-align: center;
+}
+.hero-content a:hover{
+	color: #fff;
+}
+.hero-img{
+	text-align: center;
+}
+.btn-gobal{
+	display: flex;
+	justify-content: center;
+}
+.btn-gobal a{
+	font-size: 20px;
+	background-color: #328AE0;
+	border-radius: 40px;
+	padding: 10px 106px;
+	color: #fff;
+	display: inline-block;
+	font-weight: 900;
+	text-align: center;
+	margin-top: -10px;
+	transition: .6s;
+}
+.btn-gobal a:hover{
+	color: #fff;
+	background-color: #0a64be;
+}
+.hero-bottom-logo{
+	margin-top: 30px;
+}
+.hero-bottom-content{
+	margin-top: 20px;
+}
+.hero-bottom-content h2{
+	font-size: 40px;
+	text-align: center;
+}
+.hero-bottom-content p{
+	font-size: 25px;
+	text-align: center;
+}
+.how-it-work{
+	padding: 10px 0;
+	background: #fff;
+	width: 100%;
+}
+.center-title h3{
+	text-align: center;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 40px;
+}
+.center-title h3 span{
+	color: #27C503;
+}
+.dis-row{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.col-6-dis{
+	width: 48%;
+}
+.mock-up-img img{
+	width: 100%;
+}
+.mock-up-content h2{
+	font-size: 50px;
+	font-weight: 700;
+	color: #FF3131;
+}
+.mock-up-content h3{
+	font-weight: 700;
+	font-size: 40px;
+}
+.mock-up-content p{
+	font-size: 20px;
+	color:#000000;
+}
+.green-btn{
+	margin-top: 50px;
+}
+.green-btn a{
+	background-color: #27C503;
+}
+
+
+
+.popup {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Popup content */
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    text-align: right;
+    position: relative;
+}
+
+/* Close button */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Form styles */
+form input, form textarea, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+.center-title-form{
+	text-align: center;
+}
+.center-title-form h3{
+	text-align: center;
+	color: #00AF9D;
+}
+.privacy p{
+	text-align: center;
+}
+.checkbox-container{
+	display: flex;
+	justify-content: center;
+}
+.checkbox-container {
+	display: flex;
+	align-items: center;
+}
+.checkbox-container label {
+	margin-left: 10px;
+	font-size: 16px;
+}
+.checkbox-container input[type="checkbox"] {
+	appearance: none;
+	width: 20px;
+	height: 20px;
+	border: 2px solid #333;
+	border-radius: 4px;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+}
+.checkbox-container input[type="checkbox"]:checked {
+	background-color: #4CAF50;
+	border-color: #4CAF50;
+	margin-left: 10px;
+}
+.checkbox-container input[type="checkbox"]:checked::after {
+	content: "✔";
+	font-size: 16px;
+	color: #fff;
+	position: absolute;
+	top: -3px;
+	left: 4px;
+}
+.popup-content button{
+	text-align: center;
+	font-weight: 900;
+	font-size: 20px;
+}
